@@ -6,22 +6,22 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
     <!-- link CSS-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <title>M.ELARBY</title>
 </head>
 <body>
     <!-- Header -->
     <div class="container">
         <header>
-            <h1>M.Elarby</h1>
+            <h1 class="animate__animated animate__backInLeft" >M.Elarby</h1>
             <button class="menu-toggle">
                 <i class="fa-solid fa-bars"></i> 
                 <i class="fa-solid fa-x"></i> 
             </button>
-            <ul>
+            <ul class="animate__animated animate__backInRight">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#">Services</a></li>
@@ -32,8 +32,8 @@
     </div>
     <!-- Landing Pge -->
     <div class="container">
-        <section class="landing-page">
-            <div class="lan-text">
+        <section class="landing-page block">
+            <div class="lan-text animate__animated animate__fadeInLeft block">
                 <h1>Mahmoud-<span>Elarby</span> & <span>Web</span> Developer</h1>
                 <p>I'm a passionate web developer with experience in JavaScript, HTML, CSS, and Bootstrap. I’m always eager to learn new technologies and improve my skills to create responsive and user-friendly web applications</p>
                 <div class="lan-s">
@@ -43,16 +43,16 @@
                     <i class="fa-brands fa-linkedin"></i>
                 </div>
             </div>
-            <div class="lan-img">
+            <div class="lan-img animate__animated animate__zoomIn">
                 <img src="img/Picsart_25-03-03_16-59-25-460.png" alt="">
             </div>
         </section>
     </div>
     <!-- Skills -->
     <div class="container">
-        <section class="skills">
+        <section class="skills block">
             <div class="main-heading">
-                <h2>skills</h2>
+                <h2 class="animate__animated ">skills</h2>
             </div>
             <div class="skill">
                 <div class="skill-k">
@@ -77,13 +77,13 @@
         </section>
     </div>
     <!-- Services -->
-        <section class="services">
+        <section class="services block">
             <div class="main-heading">
                 <h2>Services</h2>
             </div>
             <div class="services-o">
-                <div class="serv">
-                    <img src="img/ui.png" alt="">
+                <div class="serv" >
+                    <img  src="img/ui.png" alt="">
                     <h2>UI/UX Development</h2>
                     <p>Create attractive and responsive designs using HTML, CSS, and Bootstrap. Optimize user experience (UX) to ensure seamless website interaction. Responsive design adapts to all devices (desktop, tablet, mobile).</p>
                 </div>
@@ -126,7 +126,7 @@
         </section>
         <!-- Portfolio -->
         <div class="container">
-            <section class="portfolios">
+            <section class="portfolios block">
                 <div class="main-heading">
                     <h2>portfolio</h2>
                 </div>
@@ -154,7 +154,7 @@
         </div>
         <!-- Contact -->
         <div class="container">
-            <section class="contact">
+            <section class="contact block">
                 <div class="main-heading">
                     <h2>contact</h2>
                 </div>
@@ -176,7 +176,7 @@
             </section>
         </div>
         <!-- Start Footer -->
-        <div class="footer">
+        <div class="footer block">
             <div class="container">
                 <h1>M.Elarby</h1>
                 <p>We Are Social</p>
